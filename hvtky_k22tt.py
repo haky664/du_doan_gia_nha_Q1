@@ -43,7 +43,7 @@ model = LinearRegression()
 model.fit(X_train_processed, y_train)
 
 # Đọc dữ liệu kiểm tra từ file CSV
-test_file_path = 'aaa.csv'  # Thay 'test.csv' bằng đường dẫn thực tế đến file kiểm tra
+test_file_path = 'test.csv'  # Thay 'test.csv' bằng đường dẫn thực tế đến file kiểm tra
 try:
     df_test = pd.read_csv(test_file_path)
 except FileNotFoundError:
